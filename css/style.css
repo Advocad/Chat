@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  font-size: 28px;
+}
+.panel{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #e2e2e2;
+}
+input{
+  font-size: inherit;
+  width: 100%;
+}
+.panel__inputs{
+  display: flex;
+}
+.panel__inputs__left{
+  max-width: 20%;
+  padding-right: 0.5em;
+}
+.panel__inputs__left, .panel__inputs__right{
+  flex-grow: 1;
+}
